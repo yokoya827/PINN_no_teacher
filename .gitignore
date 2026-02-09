@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+**/*.pt
+**/*.txt
+*.pth
+**/*.npz
+*.npy
+wandb/
+trained_data/
+train_lowlou_data/
+D/
+venv/
+build/
+.ipynb
