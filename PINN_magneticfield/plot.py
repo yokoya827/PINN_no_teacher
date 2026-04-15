@@ -88,15 +88,3 @@ def xyzmap_relative_error(train_b, ref_b, index, xyz_axis):
     plt.show()
     return relative_error_slice
 
-import os
-
-def remove_empty_dirs(root_dir):
-    for root, dirs, files in os.walk(root_dir, topdown=False):
-        for d in dirs:
-            path = os.path.join(root, d)
-            try:
-                if not os.listdir(path):  # 中身が空
-                    os.rmdir(path)
-                    print(f"Removed empty dir: {path}")
-            except OSError:
-                pass
