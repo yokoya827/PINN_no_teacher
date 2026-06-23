@@ -7,15 +7,36 @@
 
 ## Physical Constraints
 
-The magnetic field satisfies the divergence-free condition:
-
 ```math
-\nabla \cdot \mathbf{B}
-=
-\frac{\partial B_x}{\partial x}
+\begin{aligned}
+L_{bc}
+&=
+\frac{1}{N_z}
+\sum
+\left\langle
+\left| b(x,y,0)-B(x,y,0) \right|^2
+\right\rangle \\
+\\
+L_{div}
+&=
+\sum
+\left\langle
+(\nabla \cdot b)^2
+\right\rangle \\
+\\
+L_{j\times b}
+&=
+\sum
+\left\langle
+\left| (\nabla \times b)\times b \right|^2
+\right\rangle \\
+\\
+Loss
+&=
+\omega_{bc}L_{bc}
 +
-\frac{\partial B_y}{\partial y}
+\omega_{div}L_{div}
 +
-\frac{\partial B_z}{\partial z}
-= 0
+\omega_{j\times b}L_{j\times b}
+\end{aligned}
 ```
