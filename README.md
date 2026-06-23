@@ -5,7 +5,10 @@
 
 ![NF2 field visualization in ParaView](image/sampling.png)
 
-## 物理式
+## Physical Constraints
+
+The magnetic field satisfies the divergence-free condition:
+
 $$
 \nabla \cdot \mathbf{B}
 =
