@@ -9,7 +9,7 @@
 
 The magnetic field satisfies the divergence-free condition:
 
-$$
+```math
 \nabla \cdot \mathbf{B}
 =
 \frac{\partial B_x}{\partial x}
@@ -18,4 +18,4 @@ $$
 +
 \frac{\partial B_z}{\partial z}
 = 0
-$$
+```
