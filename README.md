@@ -5,7 +5,7 @@
 
 ![NF2 field visualization in ParaView](image/sampling.png)
 
-## Physical Constraints
+## 物理式と損失関数
 
 ```math
 \begin{aligned}
@@ -40,3 +40,5 @@ Loss
 \omega_{j\times b}L_{j\times b}
 \end{aligned}
 ```
+
+これらの式を0に近づけるように学習
