@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+pyDOE
+pyvista
+streamtracer
+torch
